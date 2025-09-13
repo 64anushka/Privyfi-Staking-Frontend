@@ -1,7 +1,7 @@
 import { getConfig, setConfig } from "./db";
 
 export async function mint(USER_ID: string, amount = 10): Promise<void> {
-  console.log(USER_ID, "USER_IDPRESENT");
+  console.log(USER_ID, "USER_ID");
   // Ensure this runs only in a browser context
   if (typeof window === "undefined") return console.warn("Run in browser");
 
